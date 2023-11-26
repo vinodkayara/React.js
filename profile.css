@@ -1,0 +1,108 @@
+
+
+
+/* App.css */
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 100;
+}
+
+.sidebar li {
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+/* EmployeeCard Styles */
+.employee-card {
+  display: flex;
+  align-items: center;
+  margin: 100px;
+  padding: 100px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.employee-card img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.employee-card div {
+  flex: 1;
+}
+
+.employee-card h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.employee-card p {
+  margin: 0;
+  color: #777;
+}
+
+/* Profile Styles */
+.profile {
+  background-color: #333;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* SearchBar Styles */
+.search-bar {
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* MainPage Styles */
+.main-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+}
